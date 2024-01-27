@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HARSH GOHIL</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+            background-image: url('background.png');  /*Replace 'your-background-image.jpg' with the actual file path or URL of your background image */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff; /* Set text color to make it readable on the background */
+        }
+
+        h2 {
+            color: #fff; /* Set the color to black */
+            font-size: 50px; /* Set the font size to your desired value */
+            font-family: Fantasy    ; /* Set the font style to italic, replace with your chosen style */
+            /* If you have a specific font family in mind, you can set it as well */
+        }
+        .hero {
+            /* Add your existing styles here */
+        }
+
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .section {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-align: center;
+        }
+        
+        #Education {
+            background: url('background.png') center/cover no-repeat;
+            text-align: left;
+
+        }
+        
+        #Skills {
+            background: url('background.png') center/cover no-repeat;
+        }
+        
+        #Projects {
+            background: url('background.png') center/cover no-repeat;
+        }
+        
+        #contact {
+            background: url('background.png') center/cover no-repeat;
+        }
+        
+        .container {
+            max-width: 600px;
+            padding: 20px;
+        }
+        
+        .project-details {
+            display: none;
+        }
+
+        .project-details:target {
+            display: block;
+        }
+
+        /* Styles for larger screens (e.g., desktops) */
+@media only screen and (min-width: 768px) {
+    h2 {
+        font-size: 60px;
+    }
+    /* Add other styles for larger screens */
+}
+
+/* Styles for medium-sized screens (e.g., tablets) */
+@media only screen and (max-width: 767px) {
+    h2 {
+        font-size: 40px;
+    }
+    /* Add other styles for medium-sized screens */
+}
+
+/* Styles for smaller screens (e.g., mobile phones) */
+@media only screen and (max-width: 480px) {
+    h2 {
+        font-size: 30px;
+    }
+    /* Add other styles for smaller screens */
+}
+
+.blurred-section {
+    backdrop-filter: blur(5px); /* Adjust the blur amount as needed */
+    background-color:rgba(0, 0, 0, 0.5); /* Adjust the background color and opacity as needed */
+    padding: 20px; /* Add padding to make the text more readable */
+    border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+    margin-bottom: 20px; /* Optional: Add margin for spacing between sections */
+}
+        
+    </style>
+</head>
+
+<body onload="document.body.style.opacity='1'">
+
+    <div class="hero">
+        <div class="nav">
+            <div class="logo">
+                <h2>HARSH GOHEL</h2>
+            </div>
+            <div class="link">
+                <ul>
+                    <li><a href="#Education" class="active">Education</a></li>
+                    <li><a href="#Skills">Technical Skills</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="main">
+            <img src="img/main.png" alt="men" class="men">
+            <div class="main-detil">
+                <p>Hello i'm</p>
+                <h1>HARSH GOHEL</h1>
+                <h4>BACKEND Developer</h4>
+
+                <div class="btn">
+                    <a href="img/final harsh.pdf" download>
+                        <button type="button" class="btn-2">Download CV</button>
+                    </a>
+                    <a href="#contact"> <!-- Replace #contact with the actual ID of your contact section -->
+                        <button type="button" class="btn-2">Hire Me</button>
+                    </a>
+                </div>
+
+                <div class="social">
+                    <a href="https://github.com/Harsh4121" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="https://instagram.com/your-instagram-profile" target="_blank"><i class='bx bxl-instagram'></i></a>
+                </div>
+            </div>
+        </div>
+
+        <section class="Education section blurred-section" id="Education">
+            <div class="container blurred-section" >
+                <h2>Education</h2>
+            
+                <div>
+                    <h3>Career Objective</h3>
+                    <p>
+                        Seeking a career opportunity with a team of passionate and driven professionals, where I can leverage my skills to their fullest potential and contribute to the collective success of the organization.
+                    </p>
+                </div>
+            
+                <div>
+                    <br>
+                    <br>
+                    <p>
+                        <b>K.S. School of Business Management and Information Technology, Gujarat University</b><br>July 2019 – Present
+                    </p>
+                    <p>
+                        <i>Integrated M.Sc. in Computer Application and Information Technology (M.Sc. (CA & IT))</i><br>
+                        - B.Sc. (CA & IT)<br>
+                        - Cumulative GPA: 3.65/5.00
+                    </p>
+                </div>
+            
+                <div>
+                    <p>
+                        <br>
+                        <br>
+                        <b>HSC examination, GHSEB</b><br>
+                        May 2019
+                        <br>
+                        •	Result: 66.71%
+
+                        <br>
+                        <br>
+                        <b>SSC examination, GSEB</b><br>
+                        May 2017
+                        <br>
+                        •	Result: 60.50%
+                    </p>
+                </div>
+                
+            </div>
+
+           
+        </section>
+    
+        <section class="Skills section blurred-section" id="Skills">
+            <div class="container blurred-section" >
+                <h2>Technical Skills</h2>
+                <br>
+
+                <p>•	Languages: Java, Python, MySQL, HTML, CSS, JavaScript</p>
+                <br>
+                <p>•	Frameworks:  Spring Boot, Django, REST API</p>
+                <br>
+                <p>•	Developer Tools: Git, Visual Studio Code, PyCharm, Eclipse, Postman</p>
+            </div>
+        </section>
+    
+        <section class="Projects section blurred-section" id="Projects">
+            <div class="container">
+                <h2>Projects</h2>
+
+                <div class="project blurred-section" id="project1">
+                    <p>
+                        <br>
+                        <strong>
+                            <a href="#project1-details" class="project-link">1). Recipe Rest API | Python, Django, REST API, Sqlite3, GitHub Postman <br> May 2023 – June 2023</a>
+                        </strong>
+                    </p>
+                </div>
+        
+                <div class="project blurred-section" id="project2">
+                    <p>
+                        <br>
+                        <strong>
+                            <a href="#project2-details" class="project-link">2). Bug Tracking System | Java, MySQL July 2021 – April 2022</a>
+                        </strong>
+                    </p>
+                </div>
+        
+                <div class="project blurred-section" id="project3">
+                    <p>
+                        <br>
+                        <strong>
+                            <a href="#project3-details" class="project-link">3). Water Overflow Management System | IoT, Ultrasonic Distance Sensor, Soil Moisture Sensor</a>
+                        </strong>
+                    </p>
+                </div>
+        
+                <div id="project1-details" class="project-details blurred-section">
+                    <br>
+                    <br>
+                    <p><b>Project - 1</p>
+                        <br>
+                    <ul>
+                        <li><a href="https://github.com/Harsh4121/Recipe-REST-API" target="_blank">GitHub Rest API</a></li>
+                        <li>Developed a REST API with Django framework as the back-end</li>
+                        <li>Implemented routes for Adding, Updating, Deleting, and Retrieving Recipes</li>
+                        <li>Used Postman for API Testing and Sqlite3 as a database</li>
+                    </ul>
+                </div>
+        
+                <div id="project2-details" class="project-details blurred-section">
+                    <br>
+                    <br>
+                    <p><b>Project - 2</p>
+                        <br>
+                    <ul>
+                        <li>Developed a full-stack web application for bug tracking</li>
+                        <li>Tester records bugs, and steps are taken to replicate them</li>
+                        <li>Developer fixes the bug and notifies the tester</li>
+                        <li>Tester verifies the fix; closes if resolved, maintains status if not</li>
+                        <li>Project manager receives bug reports, checks for new and unfixed bugs</li>
+                        <li>Project manager assigns new bugs to developers for prompt resolution</li>
+                        <li>Secure, reliable, and fully web-based bug tracking system</li>
+                        <li>Implemented Four stakeholders: Admin, Project Manager, Developer, Tester</li>
+                    </ul>
+                </div>
+        
+                <div id="project3-details" class="project-details blurred-section">
+                    <br>
+                    <p><b>Project - 3</p>
+                        <br>
+                    <ul>
+                        <br>
+                        <br>
+                        <li>Used Arduino Uno board, Ultrasonic sensors, Bread Board, LED, 9V Battery, Soil Moisture Sensor</li>
+                        <li>Water overflow management system using IoT</li>
+                        <li>When water reaches a certain point, the LED will be on</li>
+                        <li>If water reaches the top, the flow of water from one to another will automatically stop</li>
+                        <li>Preventing water overflow</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+    
+        <section class="contact section blurred-section" id="contact">
+            <div class="container blurred-section" >
+                <h2>Contact Me</h2>
+                <p>
+                    Feel free to reach out to me. Here are my contact details:
+                </p>
+                <p>
+                    <strong>Name:</strong> HARSH GOHEL<br>
+                    <strong>Phone:</strong> +91-8320813155<br>
+                    <strong>Email:</strong> <a href="mailto:gohilharsu@gmail.com">gohilharsu@gmail.com</a><br>
+                    <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/harsh-gohil-780366240/" target="_blank">www.linkedin.com/in/harsh-gohil-780366240/</a>
+                </p>
+            </div>
+        </section>
+        
+    
+        <script src="script.js"></script>
+      
+    </div>
+
+</body>
+
+</html>
+
+
+
